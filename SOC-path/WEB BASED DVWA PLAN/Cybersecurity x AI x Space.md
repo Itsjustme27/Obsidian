@@ -1,7 +1,7 @@
 
 # Project Plan: Web-Based DVWA with AI Security & Space Cyber Lab 🚀
 
-## 🔥 Vision
+##  Vision
 
 A next-level **web-based DVWA** (Damn Vulnerable Web Application) that combines **AI security**, **CTF-style challenges**, and a **future space cybersecurity lab** for satellite penetration testing.
 

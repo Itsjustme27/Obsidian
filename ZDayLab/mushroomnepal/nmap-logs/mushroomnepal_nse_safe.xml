@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Wed Oct 15 09:54:07 2025 as: /usr/lib/nmap/nmap -sS -sV -p- -T3 -&#45;script default,safe -oA mushroomnepal_nse_safe mushroomnepal.com -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sS -sV -p- -T3 -&#45;script default,safe -oA mushroomnepal_nse_safe mushroomnepal.com" start="1760536447" startstr="Wed Oct 15 09:54:07 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<prescript><script id="broadcast-igmp-discovery" output="&#xa;  192.168.1.5&#xa;    Interface: wlan0&#xa;    Version: 2&#xa;    Group: 224.0.0.251&#xa;    Description: mDNS (rfc6762)&#xa;  Use the newtargets script-arg to add the results as targets&#xa;"/><script id="http-robtex-shared-ns" output="*TEMPORARILY DISABLED* due to changes in Robtex&apos;s API. See https://www.robtex.com/api/"/><script id="broadcast-listener" output="&#xa;  udp&#xa;      DHCP&#xa;        srv ip       cli ip        mask           gw           dns          vendor&#xa;        192.168.1.1  192.168.1.10  255.255.255.0  192.168.1.1  192.168.1.1  -&#xa;      MDNS&#xa;        Generic&#xa;          ip           ipv6  name&#xa;          192.168.1.5        _services._dns-sd._udp.local&#xa;"/><script id="targets-asn" output="&#xa;  targets-asn.asn is a mandatory parameter&#xa;"/><script id="eap-info" output="please specify an interface with -e"/><script id="multicast-profinet-discovery" output="0">0</script><script id="hostmap-robtex" output="*TEMPORARILY DISABLED* due to changes in Robtex&apos;s API. See https://www.robtex.com/api/"/><script id="broadcast-dhcp-discover" output="&#xa;  Response 1 of 1: &#xa;    Interface: wlan0&#xa;    IP Offered: 192.168.1.10&#xa;    Subnet Mask: 255.255.255.0&#xa;    Router: 192.168.1.1&#xa;    Domain Name Server: 192.168.1.1&#xa;    Server Identifier: 192.168.1.1"><table key="Response 1 of 1">
+<elem key="Interface">wlan0</elem>
+<elem key="IP Offered">192.168.1.10</elem>
+<elem key="Subnet Mask">255.255.255.0</elem>
+<elem key="Router">192.168.1.1</elem>
+<elem key="Domain Name Server">192.168.1.1</elem>
+<elem key="Server Identifier">192.168.1.1</elem>
+</table>
+</script></prescript><hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="216.198.79.1" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mushroomnepal.com" type="user"/>
+</hostnames>
+</hosthint>
+<taskprogress task="NSE" time="1760537703" percent="99.29" remaining="4" etc="1760537707"/>
+<taskprogress task="NSE" time="1760537703" percent="99.29" remaining="4" etc="1760537707"/>
+<taskprogress task="NSE" time="1760537703" percent="99.29" remaining="4" etc="1760537707"/>
+<taskprogress task="NSE" time="1760537703" percent="99.29" remaining="4" etc="1760537707"/>
+<taskprogress task="NSE" time="1760537703" percent="99.29" remaining="4" etc="1760537707"/>
+<taskprogress task="NSE" time="1760537704" percent="99.29" remaining="4" etc="1760537708"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537705" percent="99.29" remaining="4" etc="1760537709"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537706" percent="99.29" remaining="4" etc="1760537710"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537707" percent="99.29" remaining="4" etc="1760537711"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537708" percent="99.29" remaining="4" etc="1760537712"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537709" percent="99.29" remaining="4" etc="1760537713"/>
+<taskprogress task="NSE" time="1760537710" percent="99.29" remaining="4" etc="1760537714"/>
+<taskprogress task="NSE" time="1760537710" percent="99.29" remaining="4" etc="1760537714"/>
+<taskprogress task="NSE" time="1760537710" percent="99.29" remaining="4" etc="1760537714"/>
+<taskprogress task="NSE" time="1760537710" percent="99.29" remaining="4" etc="1760537714"/>
+<taskprogress task="NSE" time="1760537710" percent="99.29" remaining="4" etc="1760537714"/>
+<taskprogress task="NSE" time="1760537710" percent="99.29" remaining="4" etc="1760537714"/>
+<taskprogress task="NSE" time="1760537712" percent="99.29" remaining="4" etc="1760537716"/>
+<host starttime="1760536489" endtime="1760537884"><status state="up" reason="syn-ack" reason_ttl="240"/>
+<address addr="216.198.79.1" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mushroomnepal.com" type="user"/>
+</hostnames>
+<ports><extraports state="filtered" count="65533">
+<extrareasons reason="no-response" count="65530" proto="tcp" ports="1-79,81-442,444-1315,1317-15634,15636-22482,22484-65535"/>
+<extrareasons reason="admin-prohibited" count="3" proto="tcp" ports="1316,15635,22483"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="http" product="Vercel" servicefp="SF-Port80-TCP:V=7.95%I=7%D=10/15%Time=68EFAA28%P=x86_64-pc-linux-gnu%r(GetRequest,8A,&quot;HTTP/1\.0\x20308\x20Permanent\x20Redirect\r\nContent-Type:\x20text/plain\r\nLocation:\x20https:///\r\nRefresh:\x200;url=https:///\r\nserver:\x20Vercel\r\n\r\nRedirecting\.\.\.&quot;)%r(HTTPOptions,8A,&quot;HTTP/1\.0\x20308\x20Permanent\x20Redirect\r\nContent-Type:\x20text/plain\r\nLocation:\x20https:///\r\nRefresh:\x200;url=https:///\r\nserver:\x20Vercel\r\n\r\nRedirecting\.\.\.&quot;)%r(FourOhFourRequest,D0,&quot;HTTP/1\.0\x20308\x20Permanent\x20Redirect\r\nContent-Type:\x20text/plain\r\nLocation:\x20https:///nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\nRefresh:\x200;url=https:///nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\nserver:\x20Vercel\r\n\r\nRedirecting\.\.\.&quot;);" method="probed" conf="10"/><script id="http-headers" output="&#xa;  Content-Type: text/plain&#xa;  Location: https://mushroomnepal.com/&#xa;  Refresh: 0;url=https://mushroomnepal.com/&#xa;  server: Vercel&#xa;  &#xa;  (Request type: GET)&#xa;"/><script id="http-comments-displayer" output="Couldn&apos;t find any comments."/><script id="http-referer-checker" output="Couldn&apos;t find any cross-domain scripts."/><script id="http-useragent-tester" output="&#xa;  Status for browser useragent: 308&#xa;  Allowed User Agents: &#xa;    Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)&#xa;    libwww&#xa;    lwp-trivial&#xa;    libcurl-agent/1.0&#xa;    PHP/&#xa;    Python-urllib/2.5&#xa;    GT::WWW&#xa;    Snoopy&#xa;    MFC_Tear_Sample&#xa;    HTTP::Lite&#xa;    PHPCrawl&#xa;    URI::Fetch&#xa;    Zend_Http_Client&#xa;    http client&#xa;    PECL::HTTP&#xa;    Wget/1.13.4 (linux-gnu)&#xa;    WWW-Mechanize/1.34"><elem key="Status for browser useragent">308</elem>
+<table key="Allowed User Agents">
+<elem>Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)</elem>
+<elem>libwww</elem>
+<elem>lwp-trivial</elem>
+<elem>libcurl-agent/1.0</elem>
+<elem>PHP/</elem>
+<elem>Python-urllib/2.5</elem>
+<elem>GT::WWW</elem>
+<elem>Snoopy</elem>
+<elem>MFC_Tear_Sample</elem>
+<elem>HTTP::Lite</elem>
+<elem>PHPCrawl</elem>
+<elem>URI::Fetch</elem>
+<elem>Zend_Http_Client</elem>
+<elem>http client</elem>
+<elem>PECL::HTTP</elem>
+<elem>Wget/1.13.4 (linux-gnu)</elem>
+<elem>WWW-Mechanize/1.34</elem>
+</table>
+</script><script id="http-mobileversion-checker" output="No mobile version detected."/><script id="http-title" output="Site doesn&apos;t have a title (text/plain)."></script><script id="http-fetch" output="Please enter the complete path of the directory to save data in."><elem key="ERROR">Please enter the complete path of the directory to save data in.</elem>
+</script><script id="http-server-header" output="Vercel"><elem>Vercel</elem>
+</script><script id="http-xssed" output="No previously reported XSS vuln."/><script id="http-security-headers" output=""></script><script id="fingerprint-strings" output="&#xa;  FourOhFourRequest: &#xa;    HTTP/1.0 308 Permanent Redirect&#xa;    Content-Type: text/plain&#xa;    Location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak&#xa;    Refresh: 0;url=https:///nice%20ports%2C/Tri%6Eity.txt%2ebak&#xa;    server: Vercel&#xa;    Redirecting...&#xa;  GetRequest, HTTPOptions: &#xa;    HTTP/1.0 308 Permanent Redirect&#xa;    Content-Type: text/plain&#xa;    Location: https:///&#xa;    Refresh: 0;url=https:///&#xa;    server: Vercel&#xa;    Redirecting..."><elem key="FourOhFourRequest">&#xa;    HTTP/1.0 308 Permanent Redirect&#xa;    Content-Type: text/plain&#xa;    Location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak&#xa;    Refresh: 0;url=https:///nice%20ports%2C/Tri%6Eity.txt%2ebak&#xa;    server: Vercel&#xa;    Redirecting...</elem>
+<elem key="GetRequest, HTTPOptions">&#xa;    HTTP/1.0 308 Permanent Redirect&#xa;    Content-Type: text/plain&#xa;    Location: https:///&#xa;    Refresh: 0;url=https:///&#xa;    server: Vercel&#xa;    Redirecting...</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="240"/><service name="http" product="Golang net/http server" servicefp="SF-Port443-TCP:V=7.95%T=SSL%I=7%D=10/15%Time=68EFAA2E%P=x86_64-pc-linux-gnu%r(GetRequest,1B3,&quot;HTTP/1\.0\x20404\x20Not\x20Found\r\nCache-Control:\x20public,\x20max-age=0,\x20must-revalidate\r\nContent-Length:\x20107\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nDate:\x20Wed,\x2015\x20Oct\x202025\x2014:05:34\x20GMT\r\nServer:\x20Vercel\r\nStrict-Transport-Security:\x20max-age=63072000\r\nX-Vercel-Error:\x20DEPLOYMENT_NOT_FOUND\r\nX-Vercel-Id:\x20bom1::xnhpj-1760537134866-93756f4d2560\r\n\r\nThe\x20deployment\x20could\x20not\x20be\x20found\x20on\x20Vercel\.\n\nDEPLOYMENT_NOT_FOUND\n\nbom1::xnhpj-1760537134866-93756f4d2560\n&quot;)%r(HTTPOptions,1B3,&quot;HTTP/1\.0\x20404\x20Not\x20Found\r\nCache-Control:\x20public,\x20max-age=0,\x20must-revalidate\r\nContent-Length:\x20107\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nDate:\x20Wed,\x2015\x20Oct\x202025\x2014:05:35\x20GMT\r\nServer:\x20Vercel\r\nStrict-Transport-Security:\x20max-age=63072000\r\nX-Vercel-Error:\x20DEPLOYMENT_NOT_FOUND\r\nX-Vercel-Id:\x20bom1::sr6rm-1760537135272-55343c14c701\r\n\r\nThe\x20deployment\x20could\x20not\x20be\x20found\x20on\x20Vercel\.\n\nDEPLOYMENT_NOT_FOUND\n\nbom1::sr6rm-1760537135272-55343c14c701\n&quot;)%r(FourOhFourRequest,1B3,&quot;HTTP/1\.0\x20404\x20Not\x20Found\r\nCache-Control:\x20public,\x20max-age=0,\x20must-revalidate\r\nContent-Length:\x20107\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nDate:\x20Wed,\x2015\x20Oct\x202025\x2014:05:35\x20GMT\r\nServer:\x20Vercel\r\nStrict-Transport-Security:\x20max-age=63072000\r\nX-Vercel-Error:\x20DEPLOYMENT_NOT_FOUND\r\nX-Vercel-Id:\x20bom1::kft95-1760537135606-7c9d59a2937d\r\n\r\nThe\x20deployment\x20could\x20not\x20be\x20found\x20on\x20Vercel\.\n\nDEPLOYMENT_NOT_FOUND\n\nbom1::kft95-1760537135606-7c9d59a2937d\n&quot;)%r(GenericLines,67,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request&quot;)%r(RTSPRequest,67,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request&quot;)%r(Help,67,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request&quot;);" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:golang:go</cpe></service><script id="http-comments-displayer" output="Couldn&apos;t find any comments."/><script id="http-slowloris-check" output="&#xa;  VULNERABLE:&#xa;  Slowloris DOS attack&#xa;    State: LIKELY VULNERABLE&#xa;    IDs:  CVE:CVE-2007-6750&#xa;      Slowloris tries to keep many connections to the target web server open and hold&#xa;      them open as long as possible.  It accomplishes this by opening connections to&#xa;      the target web server and sending a partial request. By doing so, it starves&#xa;      the http server&apos;s resources causing Denial Of Service.&#xa;      &#xa;    Disclosure date: 2009-09-17&#xa;    References:&#xa;      http://ha.ckers.org/slowloris/&#xa;      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750&#xa;"><table key="CVE-2007-6750">
+<elem key="title">Slowloris DOS attack</elem>
+<elem key="state">LIKELY VULNERABLE</elem>
+<table key="ids">
+<elem>CVE:CVE-2007-6750</elem>
+</table>
+<table key="description">
+<elem>Slowloris tries to keep many connections to the target web server open and hold&#xa;them open as long as possible.  It accomplishes this by opening connections to&#xa;the target web server and sending a partial request. By doing so, it starves&#xa;the http server&apos;s resources causing Denial Of Service.&#xa;</elem>
+</table>
+<table key="dates">
+<table key="disclosure">
+<elem key="year">2009</elem>
+<elem key="month">09</elem>
+<elem key="day">17</elem>
+</table>
+</table>
+<elem key="disclosure">2009-09-17</elem>
+<table key="exploit_results">
+</table>
+<table key="refs">
+<elem>http://ha.ckers.org/slowloris/</elem>
+<elem>https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750</elem>
+</table>
+</table>
+</script><script id="http-xssed" output="No previously reported XSS vuln."/><script id="http-title" output="Site doesn&apos;t have a title (text/plain)."></script><script id="http-server-header" output="Vercel"><elem>Vercel</elem>
+</script><script id="ssl-cert" output="Subject: commonName=mushroomnepal.com&#xa;Subject Alternative Name: DNS:mushroomnepal.com&#xa;Not valid before: 2025-09-18T13:39:31&#xa;Not valid after:  2025-12-17T13:39:30"><table key="subject">
+<elem key="commonName">mushroomnepal.com</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">R12</elem>
+<elem key="countryName">US</elem>
+<elem key="organizationName">Let&apos;s Encrypt</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">A325B204C3C781F3AD16F6B091393A3D152878FD9D03CEC487EA6640C051AB72BADB43CF191A16BB28D9A4FFE85AD36C631FC60E0B1693C2C7930D77C60B66A56B894BE3AD10853DED2BA8D9EC4A620238E634899412D5F37D6B9EDE27F0278043D83C6F85D9362538F9C498B834662FF0185C2DD24344A2BCA6303AF0DE20DAA603E87DDB8D7D13F3037DD5F43283DCAE49590BEC9A2918989328E4DA3700A0C76D3781DD8258EE8DFC89694BC30391E32BA04B7D6F229EE883D5888345A7052F1452032CC61EAA1479C3EE1BD89C3A10A98B0F09A4AA1C1A0FCD1C0CABD4EC521E70D92CDCCE8069C68BBBF4198FD7CFB9FB474646B4E2F91330F0872AFF19</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication, TLS Web Client Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+<elem key="value">ED:28:10:5C:1E:02:11:5A:8B:10:33:29:95:30:F9:94:12:96:A6:B2</elem>
+</table>
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">00:B5:29:F2:2D:8E:6F:31:E8:9B:4C:AD:78:3E:FA:DC:E9:0C:D1:D2</elem>
+</table>
+<table>
+<elem key="name">Authority Information Access</elem>
+<elem key="value">CA Issuers - URI:http://r12.i.lencr.org/</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:mushroomnepal.com</elem>
+</table>
+<table>
+<elem key="name">X509v3 Certificate Policies</elem>
+<elem key="value">Policy: 2.23.140.1.2.1</elem>
+</table>
+<table>
+<elem key="name">X509v3 CRL Distribution Points</elem>
+<elem key="value">Full Name:&#xa;  URI:http://r12.c.lencr.org/76.crl&#xa;</elem>
+</table>
+<table>
+<elem key="name">CT Precertificate SCTs</elem>
+<elem key="value">Signed Certificate Timestamp:&#xa;    Version   : v1 (0x0)&#xa;    Log ID    : A4:42:C5:06:49:60:61:54:8F:0F:D4:EA:9C:FB:7A:2D:&#xa;                26:45:4D:87:A9:7F:2F:DF:45:59:F6:27:4F:3A:84:54&#xa;    Timestamp : Sep 18 14:38:01.564 2025 GMT&#xa;    Extensions: none&#xa;    Signature : ecdsa-with-SHA256&#xa;                30:46:02:21:00:91:FA:B1:C6:C8:5F:84:60:6B:DE:7E:&#xa;                58:1D:CF:BF:11:A7:FE:8D:D0:B6:44:26:2B:05:C9:79:&#xa;                BC:75:21:E2:B5:02:21:00:FD:7E:DA:A6:22:56:5C:BF:&#xa;                90:88:93:8E:AC:BE:F1:7F:E9:D5:3D:4D:61:F6:10:24:&#xa;                8D:73:7E:72:D7:A0:8D:56&#xa;Signed Certificate Timestamp:&#xa;    Version   : v1 (0x0)&#xa;    Log ID    : 12:F1:4E:34:BD:53:72:4C:84:06:19:C3:8F:3F:7A:13:&#xa;                F8:E7:B5:62:87:88:9C:6D:30:05:84:EB:E5:86:26:3A&#xa;    Timestamp : Sep 18 14:38:01.567 2025 GMT&#xa;    Extensions: none&#xa;    Signature : ecdsa-with-SHA256&#xa;                30:45:02:20:74:22:D7:32:0D:04:DC:04:0A:5D:E1:47:&#xa;                67:12:21:E1:2B:1B:F4:88:9C:CC:54:20:1A:57:EB:3A:&#xa;                D4:01:89:42:02:21:00:C7:C0:15:3B:FD:93:6F:41:74:&#xa;                D1:F0:89:69:A7:99:36:A0:47:E3:7B:C2:93:20:52:5D:&#xa;                EA:6E:74:CE:B5:C7:42</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2025-09-18T13:39:31</elem>
+<elem key="notAfter">2025-12-17T13:39:30</elem>
+</table>
+<elem key="md5">ac51606b69509ebf2553cabdade753cb</elem>
+<elem key="sha1">1ed8a2f2e582d479abf10dc6420bb1dbdb25feb1</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIE/zCCA+egAwIBAgISBU8e7LKBWUmy3EUkif45SsnLMA0GCSqGSIb3DQEBCwUA&#xa;MDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQD&#xa;EwNSMTIwHhcNMjUwOTE4MTMzOTMxWhcNMjUxMjE3MTMzOTMwWjAcMRowGAYDVQQD&#xa;ExFtdXNocm9vbW5lcGFsLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC&#xa;ggEBAKMlsgTDx4HzrRb2sJE5Oj0VKHj9nQPOxIfqZkDAUatyuttDzxkaFrso2aT/&#xa;6FrTbGMfxg4LFpPCx5MNd8YLZqVriUvjrRCFPe0rqNnsSmICOOY0iZQS1fN9a57e&#xa;J/AngEPYPG+F2TYlOPnEmLg0Zi/wGFwt0kNEorymMDrw3iDapgPofduNfRPzA33V&#xa;9DKD3K5JWQvsmikYmJMo5No3AKDHbTeB3YJY7o38iWlLwwOR4yugS31vIp7og9WI&#xa;g0WnBS8UUgMsxh6qFHnD7hvYnDoQqYsPCaSqHBoPzRwMq9TsUh5w2SzczoBpxou7&#xa;9BmP18+5+0dGRrTi+RMw8Icq/xkCAwEAAaOCAiIwggIeMA4GA1UdDwEB/wQEAwIF&#xa;oDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAd&#xa;BgNVHQ4EFgQU7SgQXB4CEVqLEDMplTD5lBKWprIwHwYDVR0jBBgwFoAUALUp8i2O&#xa;bzHom0yteD763OkM0dIwMwYIKwYBBQUHAQEEJzAlMCMGCCsGAQUFBzAChhdodHRw&#xa;Oi8vcjEyLmkubGVuY3Iub3JnLzAcBgNVHREEFTATghFtdXNocm9vbW5lcGFsLmNv&#xa;bTATBgNVHSAEDDAKMAgGBmeBDAECATAuBgNVHR8EJzAlMCOgIaAfhh1odHRwOi8v&#xa;cjEyLmMubGVuY3Iub3JnLzc2LmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB3&#xa;AKRCxQZJYGFUjw/U6pz7ei0mRU2HqX8v30VZ9idPOoRUAAABmV1Cx1wAAAQDAEgw&#xa;RgIhAJH6scbIX4Rga95+WB3PvxGn/o3QtkQmKwXJebx1IeK1AiEA/X7apiJWXL+Q&#xa;iJOOrL7xf+nVPU1h9hAkjXN+ctegjVYAdgAS8U40vVNyTIQGGcOPP3oT+Oe1YoeI&#xa;nG0wBYTr5YYmOgAAAZldQsdfAAAEAwBHMEUCIHQi1zINBNwECl3hR2cSIeErG/SI&#xa;nMxUIBpX6zrUAYlCAiEAx8AVO/2Tb0F00fCJaaeZNqBH43vCkyBSXepudM61x0Iw&#xa;DQYJKoZIhvcNAQELBQADggEBACHS0MMK0EIm9iNPpAcJKYE7Szh+kt4bnZjWMZw0&#xa;GBiDP4Z/aKb81dWm6Xirxl+T3VvwBX1DaFyk+BGf3hy+/MIKtOgZofjfTWQ0Q/V+&#xa;gXer0vWdWc6BkYnI/F0hKHYgufV+p32k2yuWQG4g80WPv5CKH8XyutLIbOdLwEJr&#xa;cLmmC/CmXwHUIAUqUXXZQ11gBBzGCfkTLuxxFmsliDJNv2ykbwW45pEx2F077BDH&#xa;Fned07gG1WycFxwcoEddlPYIQU7+y+d6qTBJMNn7FL0GR6j2BgRw4Gz0dYzaUu+h&#xa;FqZU7H4IFPyFNbcdoorgW6K0EJAnGliKYiPHKCsGo2I6dJE=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="http-fetch" output="Please enter the complete path of the directory to save data in."><elem key="ERROR">Please enter the complete path of the directory to save data in.</elem>
+</script><script id="http-mobileversion-checker" output="No mobile version detected."/><script id="http-security-headers" output="&#xa;  Strict_Transport_Security: &#xa;    HSTS not configured in HTTPS Server&#xa;  Cache_Control: &#xa;    Header: Cache-Control: private, no-store, max-age=0"><table key="Strict_Transport_Security">
+<elem>HSTS not configured in HTTPS Server</elem>
+</table>
+<table key="Cache_Control">
+<elem>Header: Cache-Control: private, no-store, max-age=0</elem>
+</table>
+</script><script id="http-headers" output="&#xa;  Cache-Control: private, no-store, max-age=0&#xa;  Content-Type: text/html; charset=utf-8&#xa;  Server: Vercel&#xa;  X-Vercel-Challenge-Token: 2.1760537270.60.MmNmZDBkNzI0MWI5NTIwMjBkMzdjYzU2ZmY5MzFkMmE7MzYyODE4ZmU7ZDMxZDQ2Zjg0YTBkZWNkMmZlNmE3MjFjYmE1M2Y4MTA4ZDYwYTllZTszOy7oe6ZWZgU1Y0hmp0c3DuNB2StbI+Q8SoDqaZyr4wDJHCbxrM7vDAWwp5JkZovj6ZPcq5BD0C1DrA==.0b0ce836aa3ac57d44da2c8c350ef17c&#xa;  X-Vercel-Id: bom1::1760537270-pWuiZ5hdzhVqLHKX0F91pJM3RXBcZgTw&#xa;  X-Vercel-Mitigated: challenge&#xa;  Date: Wed, 15 Oct 2025 14:07:50 GMT&#xa;  Connection: close&#xa;  Transfer-Encoding: chunked&#xa;  &#xa;  (Request type: GET)&#xa;"/><script id="fingerprint-strings" output="&#xa;  FourOhFourRequest: &#xa;    HTTP/1.0 404 Not Found&#xa;    Cache-Control: public, max-age=0, must-revalidate&#xa;    Content-Length: 107&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Date: Wed, 15 Oct 2025 14:05:35 GMT&#xa;    Server: Vercel&#xa;    Strict-Transport-Security: max-age=63072000&#xa;    X-Vercel-Error: DEPLOYMENT_NOT_FOUND&#xa;    X-Vercel-Id: bom1::kft95-1760537135606-7c9d59a2937d&#xa;    deployment could not be found on Vercel.&#xa;    DEPLOYMENT_NOT_FOUND&#xa;    bom1::kft95-1760537135606-7c9d59a2937d&#xa;  GenericLines, Help, RTSPRequest: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Connection: close&#xa;    Request&#xa;  GetRequest: &#xa;    HTTP/1.0 404 Not Found&#xa;    Cache-Control: public, max-age=0, must-revalidate&#xa;    Content-Length: 107&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Date: Wed, 15 Oct 2025 14:05:34 GMT&#xa;    Server: Vercel&#xa;    Strict-Transport-Security: max-age=63072000&#xa;    X-Vercel-Error: DEPLOYMENT_NOT_FOUND&#xa;    X-Vercel-Id: bom1::xnhpj-1760537134866-93756f4d2560&#xa;    deployment could not be found on Vercel.&#xa;    DEPLOYMENT_NOT_FOUND&#xa;    bom1::xnhpj-1760537134866-93756f4d2560&#xa;  HTTPOptions: &#xa;    HTTP/1.0 404 Not Found&#xa;    Cache-Control: public, max-age=0, must-revalidate&#xa;    Content-Length: 107&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Date: Wed, 15 Oct 2025 14:05:35 GMT&#xa;    Server: Vercel&#xa;    Strict-Transport-Security: max-age=63072000&#xa;    X-Vercel-Error: DEPLOYMENT_NOT_FOUND&#xa;    X-Vercel-Id: bom1::sr6rm-1760537135272-55343c14c701&#xa;    deployment could not be found on Vercel.&#xa;    DEPLOYMENT_NOT_FOUND&#xa;    bom1::sr6rm-1760537135272-55343c14c701"><elem key="FourOhFourRequest">&#xa;    HTTP/1.0 404 Not Found&#xa;    Cache-Control: public, max-age=0, must-revalidate&#xa;    Content-Length: 107&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Date: Wed, 15 Oct 2025 14:05:35 GMT&#xa;    Server: Vercel&#xa;    Strict-Transport-Security: max-age=63072000&#xa;    X-Vercel-Error: DEPLOYMENT_NOT_FOUND&#xa;    X-Vercel-Id: bom1::kft95-1760537135606-7c9d59a2937d&#xa;    deployment could not be found on Vercel.&#xa;    DEPLOYMENT_NOT_FOUND&#xa;    bom1::kft95-1760537135606-7c9d59a2937d</elem>
+<elem key="GenericLines, Help, RTSPRequest">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Connection: close&#xa;    Request</elem>
+<elem key="GetRequest">&#xa;    HTTP/1.0 404 Not Found&#xa;    Cache-Control: public, max-age=0, must-revalidate&#xa;    Content-Length: 107&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Date: Wed, 15 Oct 2025 14:05:34 GMT&#xa;    Server: Vercel&#xa;    Strict-Transport-Security: max-age=63072000&#xa;    X-Vercel-Error: DEPLOYMENT_NOT_FOUND&#xa;    X-Vercel-Id: bom1::xnhpj-1760537134866-93756f4d2560&#xa;    deployment could not be found on Vercel.&#xa;    DEPLOYMENT_NOT_FOUND&#xa;    bom1::xnhpj-1760537134866-93756f4d2560</elem>
+<elem key="HTTPOptions">&#xa;    HTTP/1.0 404 Not Found&#xa;    Cache-Control: public, max-age=0, must-revalidate&#xa;    Content-Length: 107&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Date: Wed, 15 Oct 2025 14:05:35 GMT&#xa;    Server: Vercel&#xa;    Strict-Transport-Security: max-age=63072000&#xa;    X-Vercel-Error: DEPLOYMENT_NOT_FOUND&#xa;    X-Vercel-Id: bom1::sr6rm-1760537135272-55343c14c701&#xa;    deployment could not be found on Vercel.&#xa;    DEPLOYMENT_NOT_FOUND&#xa;    bom1::sr6rm-1760537135272-55343c14c701</elem>
+</script><script id="http-referer-checker" output="Couldn&apos;t find any cross-domain scripts."/><script id="http-useragent-tester" output="&#xa;  Status for browser useragent: 403&#xa;  Allowed User Agents: &#xa;    Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)&#xa;    lwp-trivial&#xa;    libcurl-agent/1.0&#xa;    PHP/&#xa;    GT::WWW&#xa;    Snoopy&#xa;    MFC_Tear_Sample&#xa;    HTTP::Lite&#xa;    PHPCrawl&#xa;    URI::Fetch&#xa;    Zend_Http_Client&#xa;    http client&#xa;    PECL::HTTP&#xa;    Wget/1.13.4 (linux-gnu)&#xa;    WWW-Mechanize/1.34&#xa;  Change in Status Code: &#xa;    Python-urllib/2.5: 308&#xa;    libwww: 308"><elem key="Status for browser useragent">403</elem>
+<table key="Allowed User Agents">
+<elem>Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)</elem>
+<elem>lwp-trivial</elem>
+<elem>libcurl-agent/1.0</elem>
+<elem>PHP/</elem>
+<elem>GT::WWW</elem>
+<elem>Snoopy</elem>
+<elem>MFC_Tear_Sample</elem>
+<elem>HTTP::Lite</elem>
+<elem>PHPCrawl</elem>
+<elem>URI::Fetch</elem>
+<elem>Zend_Http_Client</elem>
+<elem>http client</elem>
+<elem>PECL::HTTP</elem>
+<elem>Wget/1.13.4 (linux-gnu)</elem>
+<elem>WWW-Mechanize/1.34</elem>
+</table>
+<table key="Change in Status Code">
+<elem key="Python-urllib/2.5">308</elem>
+<elem key="libwww">308</elem>
+</table>
+</script></port>
+</ports>
+<hostscript><script id="ip-geolocation-geoplugin" output="coordinates: nil, nil"><elem key="latitude">nil</elem>
+<elem key="longitude">nil</elem>
+<elem key="city">nil</elem>
+<elem key="region">nil</elem>
+<elem key="country">nil</elem>
+</script><script id="qscan" output="&#xa;PORT  FAMILY  MEAN (us)  STDDEV    LOSS (%)&#xa;80    0       70822.56   21291.83  10.0%&#xa;443   0       80686.00   23823.20  0.0%&#xa;"/><script id="fcrdns" output="FAIL (No PTR record)"><table key="&lt;none&gt;">
+<elem key="status">fail</elem>
+<elem key="reason">No PTR record</elem>
+</table>
+</script><script id="asn-query" output="&#xa;BGP: 216.198.79.0/24 | Country: US&#xa;  Origin AS: 16509 - AMAZON-02, US&#xa;    Peer AS: 174 2914 3257 6461"/><script id="port-states" output="&#xa;  tcp: &#xa;    open: 80,443&#xa;    filtered: 1-79,81-442,444-65535"><table key="tcp">
+<elem key="open">80,443</elem>
+<elem key="filtered">1-79,81-442,444-65535</elem>
+</table>
+</script><script id="whois-ip" output="Record found at whois.arin.net&#xa;netrange: 216.198.79.0 - 216.198.79.255&#xa;netname: VERCEL-05&#xa;orgname: Vercel, Inc&#xa;orgid: ZEITI&#xa;country: US stateprov: CA"/><script id="path-mtu" output="PMTU == 1484"/><script id="dns-blacklist" output="&#xa;  SPAM&#xa;    list.quorum.to - SPAM&#xa;    l2.apews.org - FAIL&#xa;"/><script id="whois-domain" output="&#xa;&#xa;Domain name record found at whois.verisign-grs.com&#xa;   Domain Name: MUSHROOMNEPAL.COM&#xd;&#xa;   Registry Domain ID: 2266223060_DOMAIN_COM-VRSN&#xd;&#xa;   Registrar WHOIS Server: whois.PublicDomainRegistry.com&#xd;&#xa;   Registrar URL: http://www.publicdomainregistry.com&#xd;&#xa;   Updated Date: 2025-09-18T14:13:26Z&#xd;&#xa;   Creation Date: 2018-05-22T08:09:45Z&#xd;&#xa;   Registry Expiry Date: 2026-05-22T08:09:45Z&#xd;&#xa;   Registrar: PDR Ltd. d/b/a PublicDomainRegistry.com&#xd;&#xa;   Registrar IANA ID: 303&#xd;&#xa;   Registrar Abuse Contact Email: abuse-contact@publicdomainregistry.com&#xd;&#xa;   Registrar Abuse Contact Phone: +1.2013775952&#xd;&#xa;   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited&#xd;&#xa;   Name Server: LEE.NS.CLOUDFLARE.COM&#xd;&#xa;   Name Server: VAL.NS.CLOUDFLARE.COM&#xd;&#xa;   DNSSEC: unsigned&#xd;&#xa;   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/&#xd;&#xa;&gt;&gt;&gt; Last update of whois database: 2025-10-15T14:07:30Z &lt;&lt;&lt;&#xd;&#xa;&#xd;&#xa;For more information on Whois status codes, please visit https://icann.org/epp&#xd;&#xa;&#xd;&#xa;NOTICE: The expiration date displayed in this record is the date the&#xd;&#xa;registrar&apos;s sponsorship of the domain name registration in the registry is&#xd;&#xa;currently set to expire. This date does not necessarily reflect the expiration&#xd;&#xa;date of the domain name registrant&apos;s agreement with the sponsoring&#xd;&#xa;registrar.  Users may consult the sponsoring registrar&apos;s Whois database to&#xd;&#xa;view the registrar&apos;s reported date of expiration for this registration.&#xd;&#xa;&#xd;&#xa;TERMS OF USE: You are not authorized to access or query our Whois&#xd;&#xa;database through the use of electronic processes that are high-volume and&#xd;&#xa;automated except as reasonably necessary to register domain names or&#xd;&#xa;modify existing registrations; the Data in VeriSign Global Registry&#xd;&#xa;Services&apos; (&quot;VeriSign&quot;) Whois database is provided by VeriSign for&#xd;&#xa;information purposes only, and to assist persons in obtaining information&#xd;&#xa;about or related to a domain name registration record. VeriSign does not&#xd;&#xa;guarantee its accuracy. By submitting a Whois query, you agree to abide&#xd;&#xa;by the following terms of use: You agree that you may use this Data only&#xd;&#xa;for lawful purposes and that under no circumstances will you use this Data&#xd;&#xa;to: (1) allow, enable, or otherwise support the transmission of mass&#xd;&#xa;unsolicited, commercial advertising or solicitations via e-mail, telephone,&#xd;&#xa;or facsimile; or (2) enable high volume, automated, electronic processes&#xd;&#xa;that apply to VeriSign (or its computer systems). The compilation,&#xd;&#xa;repackaging, dissemination or other use of this Data is expressly&#xd;&#xa;prohibited without the prior written consent of VeriSign. You agree not to&#xd;&#xa;use electronic processes that are automated and high-volume to access or&#xd;&#xa;query the Whois database except as reasonably necessary to register&#xd;&#xa;domain names or modify existing registrations. VeriSign reserves the right&#xd;&#xa;to restrict your access to the Whois database in its sole discretion to ensure&#xd;&#xa;operational stability.  VeriSign may restrict or terminate your access to the&#xd;&#xa;Whois database for failure to abide by these terms of use. VeriSign&#xd;&#xa;reserves the right to modify these terms at any time.&#xd;&#xa;&#xd;&#xa;The Registry database contains ONLY .COM, .NET, .EDU domains and&#xd;&#xa;Registrars.&#xd;&#xa;"/><script id="ipidseq" output="All zeros"/><script id="resolveall" output="&#xa;  Host &apos;mushroomnepal.com&apos; also resolves to:&#xa;  Use the &apos;newtargets&apos; script-arg to add the results as targets&#xa;  Use the -&#45;resolve-all option to scan all resolved addresses without using this script.&#xa;"><elem key="newtargets">0</elem>
+<table key="addresses">
+</table>
+</script></hostscript><times srtt="86483" rttvar="43859" to="261919"/>
+</host>
+<postscript><script id="reverse-index" output="&#xa;  80/tcp: 216.198.79.1&#xa;  443/tcp: 216.198.79.1"><table key="80/tcp">
+<elem>216.198.79.1</elem>
+</table>
+<table key="443/tcp">
+<elem>216.198.79.1</elem>
+</table>
+</script></postscript><runstats><finished time="1760537884" timestr="Wed Oct 15 10:18:04 2025" summary="Nmap done at Wed Oct 15 10:18:04 2025; 1 IP address (1 host up) scanned in 1436.92 seconds" elapsed="1436.92" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

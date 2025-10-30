@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Wed Oct 15 09:54:07 2025 as: /usr/lib/nmap/nmap -sS -sV -p- -T3 --script default,safe -oA mushroomnepal_nse_safe mushroomnepal.com
+Host: 216.198.79.1 ()	Status: Up
+Host: 216.198.79.1 ()	Ports: 80/open/tcp//http//Vercel/, 443/open/tcp//ssl|http//Golang net|http server/	Ignored State: filtered (65533)
+# Nmap done at Wed Oct 15 10:18:04 2025 -- 1 IP address (1 host up) scanned in 1436.92 seconds
