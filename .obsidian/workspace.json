@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "973c0c46e9b25907",
+    "type": "split",
+    "children": [
+      {
+        "id": "b06e5780382bd537",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "924deb9e3f213221",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOC internship/Day 3/Glossary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glossary"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "acb3be6463449057",
+    "type": "split",
+    "children": [
+      {
+        "id": "62b1d932c13d30be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73355c01bc84f3e3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "99d5eda43381e622",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8963f6357cca8b85",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 337.5
+  },
+  "right": {
+    "id": "e466034c1e0cc58b",
+    "type": "split",
+    "children": [
+      {
+        "id": "47b1ac72de261beb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "adaf7acb14f8dca4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ZDayLab/Wazuh-Lab/Incident Reports/CVE-2024-56326.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CVE-2024-56326"
+            }
+          },
+          {
+            "id": "e32e67fff02686d4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ZDayLab/Wazuh-Lab/Incident Reports/CVE-2024-56326.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CVE-2024-56326"
+            }
+          },
+          {
+            "id": "fb705172303afed6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "524e28189d7c16ea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ZDayLab/Wazuh-Lab/Incident Reports/CVE-2024-56326.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CVE-2024-56326"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "924deb9e3f213221",
+  "lastOpenFiles": [
+    "SOC internship/Day 3/Introduction to Logs.md",
+    "SOC internship/Day 3/Critical Event IDs for Windows.md",
+    "SOC internship/Day 3/Glossary.md",
+    "Pasted image 20251231162834.png",
+    "Pasted image 20251231150331.png",
+    "Pasted image 20251231150105.png",
+    "Pasted image 20251231145906.png",
+    "Pasted image 20251231123424.png",
+    "SOC internship/Week 1 – Foundations of SOC & Cybersecurity.md",
+    "Pasted image 20251231111015.png",
+    "SOC internship/Day 2/Common Ports and protocols in Networking.md",
+    "SOC internship/Day 3",
+    "SOC internship/Day 2/Day 2.md",
+    "SOC internship/Day 2/Day 2.pdf",
+    "SOC internship/Day 2/TCP IP Basics.md",
+    "SOC internship/Day 2/OSI Model.md",
+    "SOC-path/MetaCTF Past challenges/Forensics/Camping Adventures.md",
+    "SOC-path/LetsDefend/2024-12-03.md",
+    "SOC-path/CAP prep/Last minute Flash Card.md",
+    "SOC-path/Bug Report Structure/Example Structure.md",
+    "SOC-path/BINARY-EXPLOITATION PATH/Understanding the x86.md",
+    "SOC-path/BINARY-EXPLOITATION PATH/OpenSecurity2-x86/day 2 part 2.md",
+    "SOC-path/BINARY-EXPLOITATION PATH/OpenSecurity2-x86/x86_assembly_day1_part1_summary.md",
+    "SOC-path/Untitled.md",
+    "SOC-path/Untitled 1.md",
+    "SOC-path/Screenshot From 2025-04-03 11-31-17.png",
+    "SOC-path/POM POM presentation.md",
+    "SOC-path/intro to web part 1.pdf",
+    "ZDayLab/Tryhackme/Snort-Live-Attacks/Snort Challenge — Live Attack. Introduction _ by Saeed Ahmed _ Aug, 2025 _ Medium.pdf",
+    "ZDayLab/Tryhackme/Wireshark Basics/Wireshark_ The Basics — Wireshark— TryHackMe Walkthrough _ by IritT _ Medium.pdf",
+    "ZDayLab/Tryhackme/MITRE/7. ATT&CK Emulation Plans.md",
+    "ZDayLab/Tryhackme/MITRE/3. ATT&CK Framework.md",
+    "ZDayLab/Tryhackme/MITRE/2. Basic Terminology.md",
+    "ZDayLab/Tryhackme/MITRE/1. Introduction to MITRE.md",
+    "ZDayLab/HackTheBox-Sherlock/PhishNet/Writeup.md",
+    "ZDayLab/HackTheBox-Sherlock/Brutus/Brutus-Writeup.pdf",
+    "SOC-path/GPN CTF writeups/intro to web part 1.md",
+    "SOC-path/TryHackMe Learning Path/Network Services/FTP/2. Enumerating FTP.md",
+    "SOC-path/NahamCon/My First CTF (Web).pdf",
+    "ZDayLab/Tryhackme/Snort-The-Basics/SNORT Challenge — The Basics _ TryHackMe — Network Security & Traffic Analysis _ by the Journal of a Cyber Security Enthusiast _ Medium.pdf",
+    "SOC internship/Day 1/Day 1.pdf",
+    "Pasted image 20251230124546.png",
+    "Pasted image 20251230111051.png",
+    "Pasted image 20251230103527.png",
+    "SOC internship/Day 2"
+  ]
+}

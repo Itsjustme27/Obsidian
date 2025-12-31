@@ -1,8 +1,4 @@
 
-**Category:** Reverse Engineering
-
----
-
 ### Provided Source file (Initially success.hs was only given):
 
 ![[Pasted image 20250615225056.png]]

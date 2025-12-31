@@ -1,8 +1,4 @@
 
-**Category:** Reverse Engineering
-
----
-
 ## Provided Binary:
 
 ![[Pasted image 20250615231648.png]]
